@@ -260,24 +260,26 @@ video {
 
 section {
       padding: 140px 0;
+      background: #000000;
+      border-bottom: 5px solid white;
 }
 
 .section-index {
-      color: grey;
+      color: #d9d6d8;
       font-weight: bolder;
       font-size: 24px;
       font-family: 'Nunito', sans-serif;
 }
 
 .section-heading {
-      color: grey;
+      color: #d9d6d8;
       text-transform: uppercase;
       letter-spacing: 4px;
       font-size: 18px;
 }
 
 .section-subheading {
-      color: grey;
+      color: #ede9eb;
       margin: 10px 0;
 }
 
@@ -291,8 +293,8 @@ section {
 }
 
 button {
-      background: grey;
-      border: .3pt solid rgba(0, 0, 0, 1);
+      background: none;
+      border: 1px solid white;
       text-transform: uppercase !important;
       font-size: 12px !important;
       letter-spacing: 2px;
@@ -307,10 +309,6 @@ button:hover{
 
 /*--------------- services section starts  --------------- */
 
-.services {
-      background: #000000;
-}
-
 .service {
       margin: 30px 0;
 }
@@ -323,75 +321,70 @@ button:hover{
 .icon-title {
       font-size: 28px;
       margin-bottom: 4px;
-      color: rgb(255, 255, 255);
+      color: #f1eff2;
       font-weight: lighter;
 }
 
 /*--------------- our team section starts  --------------- */
-
-.team-member, .team-img {
+.portfolio-object, .thumbnail-img {
       position: relative;
 }
 
-.team-img {
+.thumbnail-img {
       background: grey;
       height: 340px;
 }
 
-.members {
+.thumbnails {
       margin: 50px 0;
 }
 
-.team-title {
+.portfolio-title {
       margin: 20px 0;
+      color: #ede9eb;
 }
 
-.team-title h5 {
+.portfolio-title h5 {
       font-size: 28px;
 }
 
-.team-title span {
+.portfolio-title span {
       font-size: 20px;
 }
 
-.team-member {
+.portfolio-object {
       overflow: hidden;
 }
 
-.team-one {
+.portfolio-one {
       background: url(team-one.jpg) no-repeat 50% 50%;
       background-size: cover;
 }
 
-.team-two {
+.portfolio-two {
       background: url(team-two.jpg) no-repeat 50% 50%;
       background-size: cover;
 }
 
 /*--------------- newsletter section starts  --------------- */
 
-.newsletter {
-      padding: 140px 0;
-      background: #161616;
-}
-
-.newsletter input {
+.latest input {
       text-transform: uppercase;
 }
 
-.newsletter .news-data {
+.latest .news-data {
       max-width: 650px;
       margin: 0 auto;
       text-align: center;
       position: relative;
 }
 
-.newsletter h1 {
+.latest h1 {
       color: #fff;
       margin-bottom: 40px;
 }
 
-.newsletter .btn {
+.latest .btn {
       min-height: 50px;
       padding: 0 30px;
       background: #000;
@@ -404,7 +397,7 @@ button:hover{
       transition: 1.5s;
 }
 
-.newsletter .btn:hover{
+.latest .btn:hover{
       background: grey;
 }
 
@@ -441,7 +434,7 @@ button:hover{
       border: none;
       resize: vertical;
       background: transparent;
-      color: #101010;
+      color: #ede9eb;
       font-weight: bolder;
 }
 
@@ -469,7 +462,7 @@ textarea:focus {
 /*--------------- footer section starts here --------------- */
 
 .footer {
-      background: #161616;
+      background: #000000;
 }
 
 #media, #address, #mail {
