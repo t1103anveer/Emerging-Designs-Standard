@@ -391,31 +391,21 @@ button:hover{
       margin-bottom: 40px;
 }
 
-.newsletter .form-control {
-      height: 50px;
-      border-color: #fff;
-      border-radius: 0 !important;
-}
-
-.form-control:focus {
-      box-shadow: none !important;
-      border: none !important;
-}
-
-::placeholder {
-      letter-spacing: 4px;
-}
-
 .newsletter .btn {
       min-height: 50px;
       padding: 0 30px;
-      border-radius: 0;
       background: #000;
+      border: 1px solid #ffffff;
       color: #fff;
       font-size: 12px;
       font-weight: 600;
       text-transform: uppercase;
       font-family: 'Nunito', sans-serif;
+      transition: 1.5s;
+}
+
+.newsletter .btn:hover{
+      background: grey;
 }
 
 /*--------------- contact section starts here --------------- */
