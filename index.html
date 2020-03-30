@@ -23,15 +23,24 @@
 
             <!--------------- hero section starts here --------------->
             <a id="home"></a>
-            <div class="video-container">
-                  <video playsinline autoplay muted loop id="bgvid">
-                        <source src="videobg.mp4" type="video/mp4">
-                  </video>
+            <div class="video-container" id="video-container">
+                  <div class="title">
+                        <div class="title-part-one wow fadeInRight" data-wow-delay="1s">
+                              Bringing
+                        </div>
+                        <div class="title-part-two wow fadeInDown" data-wow-delay="1.5s">
+                              Design
+                        </div>
+                        <div class="title-part-three wow fadeInLeft" data-wow-delay="2s">
+                              to
+                        </div>
+                        <div class="title-part-four wow fadeInUp" data-wow-delay="2.5s">
+                              Life
+                        </div>
+                  </div>
             </div>
 
-            <div class="header">
-                  <h1>Web Design. <br>Web Development. <br>Web Management.</h1>
-            </div>
+
 
             <!--------------- hero section ends here --------------->
 
@@ -47,7 +56,7 @@
                         <li><a href="#about">About us</a></li>
                         <li><a href="#services">Services</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#footer">Contact</a></li>
                   </ul>
 
                   <div id="toggle">
@@ -64,7 +73,7 @@
                         <li><a href="#about">About us</a></li>
                         <li><a href="#services">Services</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#footer">Contact</a></li>
                   </ul>
             </div>
 
@@ -177,6 +186,8 @@
 
             <section class="portfolio">
 
+
+
                   <div class="container-fluid">
 
                         <div class="row">
@@ -194,8 +205,8 @@
                                           <div class="thumbnail-img portfolio-one"></div>
                                     </div>
                                     <div class="portfolio-title">
-                                          <h5>Coming Soon</h5>
-                                          <span>Coming Soon</span>
+                                          <h5>Polestar1 Concept Website</h5>
+                                          <a href="https://t1103anveer.github.io/Polestar_Concept_Website/" target="_blank"><span>Click to view</span></a>
                                     </div>
                               </div>
 
@@ -217,35 +228,10 @@
             
             <!--------------- portfolio section ends here --------------->
 
-            <!--------------- latest project section starts here --------------->
-
-           <section class="latest">
-
-                  <div class="container">
-
-                        <div class="row">
-                              <div class="col-md-12">
-                                    <div class="news-data">
-                                    <div class="section-subheading">
-                                          <h1 class="wow fadeInUp" data-wow-delay="0.3s">Check out our latest website</h1>
-                                    </div>
-
-                                    <div class="input-group wow fadeInUp" data-wow-delay="0.4s">
-                                          <button type="button" class="btn btn-block">View Now</button>
-                                    </div>
-                                    </div>
-                              </div>
-                        </div>
-
-                  </div>
-
-           </section>
-
-            <!--------------- latest project section ends here --------------->
 
             <!--------------- contact section starts here --------------->
 
-            <a name="contact"></a>
+           <!-- <a name="contact"></a>
 
             <section class="contact">
 
@@ -265,7 +251,7 @@
                         <div class="row">
                               <div class="col-md-4"></div>
                               <div class="col-md-6">
-                                    <form action="" name="contact-form" id="contact-form" method="POST">
+                                    <form action="form-to-email.php" name="contact-form" id="contact-form" method="POST">
 
                                           <ul>
 
@@ -305,7 +291,7 @@
 
                                           </ul>
 
-                                          <button type="submit" name="contact-submit" id="contact-submit" class="send wow fadeInUp" data-wow-delay="0.9s">Send Message</button>
+                                          <input type="submit" name="contact-submit" value="Send Form" id="contact-submit" class="send wow fadeInUp" data-wow-delay="0.9s">
 
                                     </form>
                               </div>
@@ -313,10 +299,11 @@
 
                   </div>
 
-            </section>
+            </section>-->
 
             <!--------------- footer starts here --------------->
 
+            <a name="footer"></a>
             <div class="footer">
 
                   <div class="container">
@@ -378,5 +365,23 @@
 <script src="wow.min.js"></script>
 <script src="bootstrap.min.js"></script>
 <script src="PersonalScripts.js"></script>
+<script src="p5.min.js"></script>
+<script src="vanta.topology.min.js"></script>
+<script>
+           const effect =  VANTA.TOPOLOGY({
+                  el: '#video-container', // element selector string or DOM object reference
+                  color: 0xfff,
+                  backgroundColor: 0x000,
+                  mouseControls: true,
+                  minHeight: 1200.00,
+                  minWidth: 200.00,
+                  scale: 1.00,
+                  scaleMobile: 1.00
+            });
+
+           effect.setOptions({
+                 color: 0xff88cc
+           })
+</script>
 </body>
 </html>

@@ -22,24 +22,38 @@ body::-webkit-scrollbar {
       overflow: hidden;
 }
 
-video {
-      object-fit: cover;
-      width: 100vw;
-      height: 100vh;
-      position: absolute;
-      top: 0;
-      left: 0;
+.title{
+      display: inline-flex;
+      flex-wrap: wrap;
+      max-width: 1200px;
+      left: 25vw;
+      top: 35vh;
+      justify-content: space-between;
+      font-size: 8vh;
 }
 
-.video-container::after {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100vh;
-      background: #1b1b1b;
-      opacity: 0.8;
+.title-part-one{
+      position: relative;
+      color: white;
+      padding-right: 25px;
+}
+
+.title-part-two{
+      position: relative;
+      color: white;
+      padding-right: 25px;
+}
+
+.title-part-three{
+      position: relative;
+      color: white;
+      padding-right: 25px;
+}
+
+.title-part-four{
+      position: relative;
+      color: white;
+      padding-right: 25px;
 }
 
 .header {
@@ -61,6 +75,10 @@ video {
             width: 75%;
       }
 
+      .title{
+            font-size: 5vw;
+      }
+
       .header h1 {
             font-size: 32px !important;
             text-align: left;
@@ -77,7 +95,7 @@ video {
 }
 
 .nav.scrolled {
-      background-color: #161616 !important;
+      background-color: #000000 !important;
       transition: background-color 500ms linear;
 }
 
@@ -91,7 +109,7 @@ video {
 .logo{
       background: url("logo.png") no-repeat;
       background-size: contain;
-      height: 300px;
+      height: 30px;
       width: 200px;
       margin-top: 25px;
 }
@@ -103,18 +121,18 @@ video {
 }
 
 .nav #menu li {
+      font-family: 'Nunito', sans-serif;
+      text-transform: uppercase;
       padding-left: 40px;
       display: inline-block;
-      font-weight: lighter !important;
-      text-transform: uppercase;
-      font-size: 14px;
       line-height: 80px;
+      font-size: 16px;
+      letter-spacing: 1px;
       position: relative;
       transition: all 500ms ease-out;
 }
 
 .nav #menu li a {
-      font-family: 'Nunito', sans-serif;
       color: rgb(156, 156, 156);
       transition: all 500ms ease-out;
 }
@@ -260,8 +278,8 @@ video {
 
 section {
       padding: 140px 0;
-      background: #000000;
-      border-bottom: 5px solid white;
+      background: #030200;
+      border-bottom: 5px solid grey;
 }
 
 .section-index {
@@ -325,7 +343,7 @@ button:hover{
       font-weight: lighter;
 }
 
-/*--------------- our team section starts  --------------- */
+/*--------------- portfolio section starts  --------------- */
 .portfolio-object, .thumbnail-img {
       position: relative;
 }
@@ -350,6 +368,12 @@ button:hover{
 
 .portfolio-title span {
       font-size: 20px;
+      color: rgb(156, 156, 156);
+      text-decoration: none;
+}
+
+a:hover{
+      text-decoration: none;
 }
 
 .portfolio-object {
@@ -357,48 +381,13 @@ button:hover{
 }
 
 .portfolio-one {
-      background: url(team-one.jpg) no-repeat 50% 50%;
+      background: url(Portfolio-One.png) no-repeat 50% 50%;
       background-size: cover;
 }
 
 .portfolio-two {
-      background: url(team-two.jpg) no-repeat 50% 50%;
+      background: url(Portfolio-Two.png) no-repeat 50% 50%;
       background-size: cover;
-}
-
-/*--------------- newsletter section starts  --------------- */
-
-.latest input {
-      text-transform: uppercase;
-}
-
-.latest .news-data {
-      max-width: 650px;
-      margin: 0 auto;
-      text-align: center;
-      position: relative;
-}
-
-.latest h1 {
-      color: #fff;
-      margin-bottom: 40px;
-}
-
-.latest .btn {
-      min-height: 50px;
-      padding: 0 30px;
-      background: #000;
-      border: 1px solid #ffffff;
-      color: #fff;
-      font-size: 12px;
-      font-weight: 600;
-      text-transform: uppercase;
-      font-family: 'Nunito', sans-serif;
-      transition: 1.5s;
-}
-
-.latest .btn:hover{
-      background: grey;
 }
 
 /*--------------- contact section starts here --------------- */
