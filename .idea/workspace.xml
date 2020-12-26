@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="33fcfdf7-8bd5-4da8-911c-2ef1f060e21e" name="Default Changelist" comment="SSL Fix">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +98,7 @@
       <workItem from="1608710670705" duration="1667000" />
       <workItem from="1608897788739" duration="599000" />
       <workItem from="1608972232457" duration="3613000" />
-      <workItem from="1609006156808" duration="2229000" />
+      <workItem from="1609006156808" duration="2389000" />
     </task>
     <task id="LOCAL-00001" summary="SSL Fix">
       <created>1603665145323</created>
