@@ -390,6 +390,10 @@ a:hover{
       background-size: cover;
 }
 
+.web-link:hover{
+      color: white;
+}
+
 /*--------------- contact section starts here --------------- */
 
 #contact-form {
@@ -452,6 +456,11 @@ textarea:focus {
 
 .footer {
       background: #000000;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
 }
 
 #media, #address, #mail {
@@ -460,6 +469,7 @@ textarea:focus {
 
 .footer .container {
       padding: 160px 0;
+      text-align: center;
 }
 
 .footer li, p, h4 {
@@ -483,6 +493,18 @@ textarea:focus {
       font-size: 18px !important;
 }
 
+.clear{
+      text-align: center;
+}
+
+.required{
+      text-align: center;
+}
+
+form{
+      text-align: center;
+}
+
 #media ul {
       list-style: none;
 }
@@ -490,6 +512,46 @@ textarea:focus {
 #media ul li {
       display: inline-block;
 }
+
+#mc_embed_signup{
+      background:#000000;
+      clear:left;
+      font: 20px 'Nunito',sans-serif;
+      color: white;}
+
+.info{
+      padding-top: 100px;
+}
+
+#mc_embed_signup .button {
+      background-color: transparent;
+      border: 2.5px solid white;
+      border-radius: 0.5px;
+      color: whitesmoke;
+      cursor: pointer;
+      display: inline-block;
+      font-size: 22px;
+      height: 50px;
+      letter-spacing: 2px;
+      line-height: 32px;
+      margin: 0 5px 10px 0;
+      padding: 0 22px;
+      text-align: center;
+      vertical-align: top;
+      white-space: nowrap;
+      width: auto;
+}
+
+#mc_embed_signup .button:hover{
+      background-color: transparent;
+      text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+      -webkit-box-shadow: 0px 5px 40px -10px rgba(255, 255, 255,0.57);
+      -moz-box-shadow: 0px 5px 40px -10px rgba(255, 255, 255,0.57);
+      transition: all 0.4s ease 0s;
+      border-radius: 14px;
+}
+
+
 
 @media(max-width: 900px) {
       .footer .container {

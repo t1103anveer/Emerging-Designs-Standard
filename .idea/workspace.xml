@@ -19,10 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="33fcfdf7-8bd5-4da8-911c-2ef1f060e21e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+    <list default="true" id="33fcfdf7-8bd5-4da8-911c-2ef1f060e21e" name="Default Changelist" comment="SSL Fix">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,36 +35,6 @@
         <option value="JavaScript File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>cursor</find>
-      <find>icon</find>
-      <find>brand</find>
-      <find>span</find>
-      <find>logo</find>
-      <find>header</find>
-      <find>email</find>
-      <find>contact-s</find>
-      <find>section-in</find>
-      <find>ion</find>
-      <find>section-he</find>
-      <find>contact-submit</find>
-      <find>nav</find>
-      <find>section-info</find>
-      <find>media</find>
-      <find>new</find>
-      <find>section-dat</find>
-      <find>our-vision</find>
-      <find>about</find>
-      <find>portf</find>
-      <find>contact</find>
-      <find>send</find>
-      <find>button</find>
-      <find>btn</find>
-      <find>serv</find>
-      <find>sect</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -123,8 +93,22 @@
       <workItem from="1585591899933" duration="295000" />
       <workItem from="1585592502751" duration="11000" />
       <workItem from="1585609779182" duration="259000" />
-      <workItem from="1603635049916" duration="1511000" />
+      <workItem from="1603635049916" duration="2168000" />
+      <workItem from="1604702642227" duration="18000" />
+      <workItem from="1608672504870" duration="4065000" />
+      <workItem from="1608710670705" duration="1667000" />
+      <workItem from="1608897788739" duration="599000" />
+      <workItem from="1608972232457" duration="3613000" />
+      <workItem from="1609006156808" duration="44000" />
     </task>
+    <task id="LOCAL-00001" summary="SSL Fix">
+      <created>1603665145323</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603665145323</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -140,5 +124,20 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="SSL Fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="SSL Fix" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="687" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1608979548314">
+      <screen x="0" y="0" width="2467" height="1080" />
+    </state>
+    <state x="687" y="195" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2467.1080@0.0.2467.1080" timestamp="1608979548314" />
+    <state x="825" y="273" key="Vcs.Push.Dialog.v2" timestamp="1603665153850">
+      <screen x="0" y="0" width="2467" height="1080" />
+    </state>
+    <state x="825" y="273" key="Vcs.Push.Dialog.v2/0.0.2467.1080@0.0.2467.1080" timestamp="1603665153850" />
   </component>
 </project>
